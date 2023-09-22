@@ -1,5 +1,5 @@
 class Kxd < Formula
-    ver = "0.0.1"
+    ver = "v0.0.2"
     desc "Kubeconfig Switcher in Go"
     homepage "https://github.com/radiusmethod/kxd"
     url "https://github.com/radiusmethod/kxd/archive/v0.0.2.tar.gz"
