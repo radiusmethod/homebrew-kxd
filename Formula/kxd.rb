@@ -1,9 +1,9 @@
 class Kxd < Formula
-    ver = "v0.0.8"
+    ver = "v0.0.9"
     desc "Kubeconfig Switcher in Go"
     homepage "https://github.com/radiusmethod/kxd"
-    url "https://github.com/radiusmethod/kxd/archive/v0.0.8.tar.gz"
-    sha256 "66a2b48f79b41c151cacc990d3c24c0a141afdc4a7b01785a312e34519965cbe"
+    url "https://github.com/radiusmethod/kxd/archive/v0.0.9.tar.gz"
+    sha256 "3a8ff46e21a6b601f1c2cbdb8076bf3f1e796134570a2e388fd7af1eaadeb5b3"
     license "MIT"
     head "https://github.com/radiusmethod/kxd.git", branch: "main", :tag => ver
     version ver
