@@ -1,14 +1,13 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   "extends": [
-    "config:base"
+    "config:recommended"
   ],
-  "regexManagers": [
+  "customManagers": [
     {
-      "fileMatch": ["^Formula/kxd.rb$"],
-      "matchStrings": [
-        "ver = \"(?<currentValue>.*)\""
-      ],
+      "customType": "regex",
+      "managerFilePatterns": ["/^Formula/kxd.rb$/"],
+      "matchStrings": ["ver = \"(?<currentValue>.*)\""],
       "depNameTemplate": "radiusmethod/kxd",
       "datasourceTemplate": "github-releases"
     }
